@@ -197,8 +197,10 @@ graph()
 delimiters = ["+", "-"]
 res = 0
 
-listt = input("welcome to the graphing calculator,\
+print("welcome to the graphing calculator,\
 please input any polynomail functions\n")
+listt = input("input the equation in the form of\n\
+ax^n + bx^k +...+ c.  a, n, b, k, c could be any number")
 
 temp = split(listt)
 
