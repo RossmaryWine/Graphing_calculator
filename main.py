@@ -200,7 +200,7 @@ res = 0
 print("welcome to the graphing calculator,\
 please input any polynomail functions\n")
 listt = input("input the equation in the form of\n\
-ax^n + bx^k +...+ c.  a, n, b, k, c could be any number")
+ax^n + bx^k +...+ c.  a, n, b, k, c could be any number\n")
 
 temp = split(listt)
 
